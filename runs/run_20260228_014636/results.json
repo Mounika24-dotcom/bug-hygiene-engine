@@ -1,0 +1,4812 @@
+[
+  {
+    "url": "https://hackculture.io/challenges/feuji-innovation-challenge",
+    "title": "Feuji Innovation Challenge 2026 | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 28,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Provider's accounts list is empty.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "b0f2f67b7796"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=k5uql",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "44acbdf22e19"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=k5uql",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1bcc70c8dc11"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2Fchallenges%2Ffeuji-innovation-challenge&",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "feaec7236a58"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=k5uql",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "4ccb551ca1e5"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=k5uql",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a514ac09a0f5"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=k5uql",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "53d970411ed1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=k5uql",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "31c61541a7d0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=k5uql",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "edc24ed951c3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f6d1c43fa517"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2Fprograms&_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "37f5823066ef"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 24,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 240,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/apple-touch-icon.png",
+    "title": "apple-touch-icon.png (180×180)",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "High",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=https://hackculture.io/apple-touch-icon.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img src=\"https://hackculture.io/apple-touch-icon.png\" style=\"display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 3",
+        "issue_id": "1cddc196c458"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/android-chrome-192x192.png",
+    "title": "android-chrome-192x192.png (192×192)",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "High",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=https://hackculture.io/android-chrome-192x192.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img src=\"https://hackculture.io/android-chrome-192x192.png\" style=\"display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-c",
+        "issue_id": "0fb210991fab"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/android-chrome-512x512.png",
+    "title": "android-chrome-512x512.png (512×512)",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "High",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=https://hackculture.io/android-chrome-512x512.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img src=\"https://hackculture.io/android-chrome-512x512.png\" style=\"display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-c",
+        "issue_id": "33cabfd5c9bc"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/site.webmanifest",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "High",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "e596266f0179"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/programs",
+    "title": "Explore Programs | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 21,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display:b",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2Fprograms&_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "52d6eb11b251"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "2e00562f2a80"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "601a55ef586c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "aa927576fb64"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "580561a15341"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1d36ce458702"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=n2",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7e61a70c1032"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "dc97aa5a663d"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "8ef6bbf2559e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f5d1a2046a48"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "86970bde6ebc"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=n28dk",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "27346e382182"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 17,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 184,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/",
+    "title": "HackCulture | Home for Innovation",
+    "page_type": "home",
+    "issues_count": 47,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.object-center",
+        "hint": "src=/landing/hero/logo-1.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain object-center w-full max-h-full\" src=\"/landing/hero/logo-1.png\"/>",
+        "issue_id": "3a7f7e057de9"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.object-center",
+        "hint": "src=/landing/hero/logo-2.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain object-center w-full max-h-full\" src=\"/landing/hero/logo-2.png\"/>",
+        "issue_id": "8a48484525b3"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.object-center",
+        "hint": "src=/landing/hero/logo-3.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain object-center w-full max-h-full\" src=\"/landing/hero/logo-3.png\"/>",
+        "issue_id": "1b9dfeb65c5c"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.object-center",
+        "hint": "src=/landing/hero/logo-4.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain object-center w-full max-h-full\" src=\"/landing/hero/logo-4.png\"/>",
+        "issue_id": "eb7f12ad6bde"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.object-center",
+        "hint": "src=/landing/hero/logo-5.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain object-center w-full max-h-full\" src=\"/landing/hero/logo-5.png\"/>",
+        "issue_id": "24fda0c50bbf"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.object-center",
+        "hint": "src=/landing/hero/logo-6.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain object-center w-full max-h-full\" src=\"/landing/hero/logo-6.png\"/>",
+        "issue_id": "31ef4852bbd5"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.object-center",
+        "hint": "src=/landing/hero/logo-7.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain object-center w-full max-h-full\" src=\"/landing/hero/logo-7.png\"/>",
+        "issue_id": "2fbd20c6559f"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.w-full.h-full",
+        "hint": "src=/landing/innovation/card-1.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"w-full h-full object-contain object-center select-none pointer-events-none\" draggable=\"false\" height=\"328\" src=\"/landing/innovation/card-1.png\" width=\"1228\"/>",
+        "issue_id": "8f445ea59ffc"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.w-full.h-full",
+        "hint": "src=/landing/innovation/card-3.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"w-full h-full object-contain object-center select-none pointer-events-none\" draggable=\"false\" height=\"328\" src=\"/landing/innovation/card-3.png\" width=\"1228\"/>",
+        "issue_id": "7b26f570f464"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.w-full.h-full",
+        "hint": "src=/landing/innovation/card-4.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"w-full h-full object-contain object-center select-none pointer-events-none\" draggable=\"false\" height=\"328\" src=\"/landing/innovation/card-4.png\" width=\"1228\"/>",
+        "issue_id": "1499a5c15b0e"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.w-full.h-full",
+        "hint": "src=/landing/innovation/card-6.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"w-full h-full object-contain object-center select-none pointer-events-none\" draggable=\"false\" height=\"328\" src=\"/landing/innovation/card-6.png\" width=\"1228\"/>",
+        "issue_id": "d26e9d90592a"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.w-full.h-full",
+        "hint": "src=/landing/innovation/card-5.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"w-full h-full object-contain object-center select-none pointer-events-none\" draggable=\"false\" height=\"328\" src=\"/landing/innovation/card-5.png\" width=\"1228\"/>",
+        "issue_id": "0eb3f718a266"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.w-full.h-full",
+        "hint": "src=/landing/innovation/card-2.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"w-full h-full object-contain object-center select-none pointer-events-none\" draggable=\"false\" height=\"328\" src=\"/landing/innovation/card-2.png\" width=\"1228\"/>",
+        "issue_id": "2dd1fb2e7853"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.h-12.w-auto",
+        "hint": "src=/landing/clients-logos/logo-11.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"h-12 w-auto max-w-[110px] sm:max-w-[128px] object-contain flex-shrink-0 opacity-90\" src=\"/landing/clients-logos/logo-11.png\"/>",
+        "issue_id": "2d82842266ff"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.h-12.w-auto",
+        "hint": "src=/landing/clients-logos/logo-3.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"h-12 w-auto max-w-[110px] sm:max-w-[128px] object-contain flex-shrink-0 opacity-90\" src=\"/landing/clients-logos/logo-3.png\"/>",
+        "issue_id": "903954431b20"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.h-12.w-auto",
+        "hint": "src=/landing/clients-logos/logo-8.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"h-12 w-auto max-w-[110px] sm:max-w-[128px] object-contain flex-shrink-0 opacity-90\" src=\"/landing/clients-logos/logo-8.png\"/>",
+        "issue_id": "5e3ed1e8d521"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-1.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-1.png\"/>",
+        "issue_id": "45f21d941e79"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-2.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-2.png\"/>",
+        "issue_id": "a8d6e6673fa6"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-3.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-3.png\"/>",
+        "issue_id": "b515555cc759"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-4.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-4.png\"/>",
+        "issue_id": "ce8133715f00"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-5.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-5.png\"/>",
+        "issue_id": "61fb9f127b77"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-6.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-6.png\"/>",
+        "issue_id": "0e72988f77e3"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-7.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-7.png\"/>",
+        "issue_id": "2d1173545348"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-8.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-8.png\"/>",
+        "issue_id": "87b9679f167d"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.object-contain.w-full",
+        "hint": "src=/landing/partners/logo-9.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" class=\"object-contain w-full h-full\" src=\"/landing/partners/logo-9.png\"/>",
+        "issue_id": "80ea2df56546"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display:b",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=wgemy",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c6d097b5da26"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=wgemy",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "4d978580a223"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=wgemy",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f400b6b80843"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=wgemy",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "21316713c6bd"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=wgemy",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7e8c009fd116"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=wgemy",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0601772ecaff"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": "",
+        "issue_id": "e201df0b4933"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 18,
+        "Low": 26
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 267,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/auth",
+    "title": "Get Started | HackCulture",
+    "page_type": "form",
+    "issues_count": 27,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display:b",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=5adub",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "9e21e0f9a315"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=5adub",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "fa9885249690"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=5adub",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "fc09ab291be8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=5adub",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d50fbd70e7b3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2Fauth&_rsc=5adub",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "925302c2a288"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 23,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 232,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathon/cine-ai-hackfest",
+    "title": "Cine AI Hackfest | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 25,
+    "issues": [
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.block.bg-white",
+        "hint": "href=#",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"block bg-white rounded-xl p-3 shadow-sm border hover:shadow-lg hover:scale-102 transition-all duration-300 cursor-pointer relative overflow-hidden group\" href=\"#\" rel=\"no",
+        "issue_id": "8072d2776d41"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=1eesw",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f4d542b9b892"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=1eesw",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "97eaad2a45e7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=1eesw",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5edb7e609874"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=1eesw",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "4b87bdf8ac0e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=1eesw",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e42e3a364834"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 20,
+        "Low": 2
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 211,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+    "title": "Portkey AI Builders Challenge | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 23,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "c55b70a01a08"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=7expb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "238bb5c4bd6f"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=7expb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7b04c727956e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=7expb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "4cb3cfb0225c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=7expb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0e1269279883"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=7expb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "2f51a394ef45"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 19,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 200,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathon/witchhunt",
+    "title": "WitchHunt | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 25,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=1fj70",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d581177bb56b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2Fhackathon%2Fwitchhunt&_rsc=1fj70",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "058a768c53ae"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=1fj70",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "30ba5515891a"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=1fj70",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5e331018c5eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=1fj70",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e50e89f1141b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=1fj70",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c76ec21973cf"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 21,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 216,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathon/hallucinate",
+    "title": "Hallucinate | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 26,
+    "issues": [
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.block.bg-white",
+        "hint": "href=#",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"block bg-white rounded-xl p-3 shadow-sm border hover:shadow-lg hover:scale-102 transition-all duration-300 cursor-pointer relative overflow-hidden group\" href=\"#\" rel=\"no",
+        "issue_id": "8072d2776d41"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2Fhackathon%2Fhallucinate&_rsc=1tawt",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a6fb69888b9a"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=1tawt",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "759ab9107662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=1tawt",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "6b81743b434b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=1tawt",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a749c3b6a9d1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=1tawt",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "3272207136ad"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 21,
+        "Low": 2
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 219,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+    "title": "Feuji Innovation Challenge 2026 | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 24,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1a36w",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "64ee2a6573d2"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=1a36w",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5cde5e5e4857"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=1a36w",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e31587ace8f2"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=1a36w",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a863e0e2fd4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=1a36w",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c85744feadc8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1gez9",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a3fdd1bb5852"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 20,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 208,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathons/witchhunt",
+    "title": "WitchHunt | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 22,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1hyn5",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c5fba2bb8b11"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2Fhackathons%2Fwitchhunt&_rsc=1hyn5",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "2abca37de940"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=1hyn5",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c08f685b9472"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 18,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 192,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathons/hackaccino",
+    "title": "Hackaccino 4.0 | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 27,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=1dklb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "6209dcba841d"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=1dklb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1a7a2faf6638"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=1dklb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f36ad5f5bd07"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=1dklb",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "9254808b8135"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1gez9",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a3fdd1bb5852"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=1gpm0",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5d6954265450"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 23,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 232,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathons/vibecon-india",
+    "title": "VibeCon India | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 20,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=1oyuq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "55397b79c4f9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=1oyuq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "6dde29c43fb5"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=1oyuq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "451b3086ec7f"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 16,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 176,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathons/nxtgen",
+    "title": "NXTGEN | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 25,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=5awvq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e79740d61677"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=5awvq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f9605f55a71d"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=5awvq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "918a5316f314"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=5awvq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f3f1d70730a2"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=5awvq",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "425c0fd8af97"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1gez9",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a3fdd1bb5852"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 21,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 216,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathons/hallucinate",
+    "title": "Hallucinate | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 26,
+    "issues": [
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.block.bg-white",
+        "hint": "href=#",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"block bg-white rounded-xl p-3 shadow-sm border hover:shadow-lg hover:scale-102 transition-all duration-300 cursor-pointer relative overflow-hidden group\" href=\"#\" rel=\"no",
+        "issue_id": "8072d2776d41"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1g3sl",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0eed570de93b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=1g3sl",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "74a219e71bae"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=1g3sl",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79014ca5537c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=1g3sl",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad2b23c5a999"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=1g3sl",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "9456e5c7a7f6"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=1g3sl",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "48a3faeb0792"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1gez9",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a3fdd1bb5852"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/programs?_rsc=1gpm0",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5d6954265450"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 21,
+        "Low": 2
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 219,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/hackathons/cine-ai-hackfest",
+    "title": "Cine AI Hackfest | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 27,
+    "issues": [
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.block.bg-white",
+        "hint": "href=#",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"block bg-white rounded-xl p-3 shadow-sm border hover:shadow-lg hover:scale-102 transition-all duration-300 cursor-pointer relative overflow-hidden group\" href=\"#\" rel=\"no",
+        "issue_id": "8072d2776d41"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "c55b70a01a08"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=1qlr6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d291ec7fbbd3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/privacy-policy?_rsc=1qlr6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "177d1e5e35a2"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=1qlr6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "822c02badb10"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings?_rsc=1qlr6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "10b2d4d48dbe"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=1qlr6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "537d5889fb8f"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "1354bcef2d69"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad?_rsc=11",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "bc21ef6e12e0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 22,
+        "Low": 2
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 227,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+    "title": "Techstars Startup Weekend AI Hyderabad | HackCulture",
+    "page_type": "unknown",
+    "issues_count": 24,
+    "issues": [
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20w",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" aria-hidden=\"true\" src=\"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27180%27%20height=%2748%27/%3e\" style=\"display: ",
+        "issue_id": "bca7e14370a9"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Not signed in with the identity provider.",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "710dfc045932"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "5c4d71aeb719"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=16dw5",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b433d2052084"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/our-clientele?_rsc=16dw5",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "22cea1dd56de"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/blog?_rsc=16dw5",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "24c24ee9a5d8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/legal/terms-and-conditions?_rsc=16dw5",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "3c3c7a2e1bb8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/?_rsc=1gez9",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a3fdd1bb5852"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/auth?redirect=%2F&_rsc=1x7v6",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7bd07fda9eb"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hackaccino?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "b56e37c25ac3"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "c567b9bef41b"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathon/portkey-ai-builder-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e41ade08b21e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/challenges/feuji-innovation-challenge?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ad61081e88f8"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/witchhunt?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "79e703d12ad0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/cine-ai-hackfest?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "65dda78775e9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/nxtgen?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "33fda6438287"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/hallucinate?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "0cde55ccea4c"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/hackathons/vibecon-india?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "17541f400c68"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/innovation-management?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7453882ebec1"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/startup-scouting?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5a964c899662"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/hackathons?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ddd580cef289"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://hackculture.io/offerings/developer-marketing?_rsc=11emz",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "d0235ee8e2c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.google-analytics.com/g/collect?v=2&tid=G-QL9NDNWT77&gtm=45je62p1v923",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "ae3862c4956e"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "999 https://www.linkedin.com/company/hackculture/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "ae947900e552"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 3,
+        "Medium": 20,
+        "Low": 1
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 208,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  }
+]

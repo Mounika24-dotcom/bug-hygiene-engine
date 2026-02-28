@@ -1,0 +1,256 @@
+[
+  {
+    "url": "http://localhost:8000/",
+    "title": "",
+    "page_type": "home",
+    "issues_count": 23,
+    "issues": [
+      {
+        "issue": "Broken Link",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "a",
+        "hint": "href=javascript:void(0)",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a href=\"javascript:void(0)\">JS href (skip)</a>",
+        "issue_id": "94e64eea0e0d"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "High",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=/assets/img_ok.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img src=\"/assets/img_ok.png\"/>",
+        "issue_id": "5155fc94b67a"
+      },
+      {
+        "issue": "Empty Heading",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "h2",
+        "hint": "",
+        "suggestion": "Remove empty heading tags or add meaningful heading text for structure.",
+        "evidence": "<h2></h2>",
+        "issue_id": "288272cb00f3"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "High",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "e596266f0179"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      },
+      {
+        "issue": "Placeholder Text Found",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "page",
+        "hint": "lorem/placeholder",
+        "suggestion": "Replace placeholder text with real content.",
+        "evidence": "",
+        "issue_id": "ad36402f00ba"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "3348266e56af"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Dummy console error from index.html",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "ee8ef13af14e"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "4d7c7757ab0d"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 401 (UNAUTHORIZED)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "6a0ffae5dee1"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "0f3f7c05132d"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 403 (FORBIDDEN)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "42589b72fa9d"
+      },
+      {
+        "issue": "JS Exception",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Dummy JS exception from index.html",
+        "suggestion": "Fix the thrown error in the app code; add try/catch and validate null/undefined access.",
+        "evidence": "",
+        "issue_id": "f5f46d3381d5"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED http://localhost:8000/assets/missing.js",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7d8ec907b4fc"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_CONNECTION_REFUSED http://127.0.0.1:9999/nope",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "3915def3e876"
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "401 http://localhost:8000/api/unauthorized401",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": "",
+        "issue_id": "6f6d316abd6e"
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "500 http://localhost:8000/api/fail500",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": "",
+        "issue_id": "82c9b43d41cc"
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 http://localhost:8000/api/forbidden403",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": "",
+        "issue_id": "eb7c4fd1701b"
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "404 http://localhost:8000/api/notfound404",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": "",
+        "issue_id": "3c06c273e620"
+      },
+      {
+        "issue": "Unauthorized API Call",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "401 http://localhost:8000/api/unauthorized401",
+        "suggestion": "Check authentication/authorization; ensure tokens/cookies are valid and sent.",
+        "evidence": "",
+        "issue_id": "7b137156e148"
+      },
+      {
+        "issue": "Unauthorized API Call",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 http://localhost:8000/api/forbidden403",
+        "suggestion": "Check authentication/authorization; ensure tokens/cookies are valid and sent.",
+        "evidence": "",
+        "issue_id": "fa40ff2daf1f"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "High": 15,
+        "Medium": 5,
+        "Low": 3
+      },
+      "weights": {
+        "High": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 274,
+      "formula": "score = max(0, 100 - (High*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  }
+]

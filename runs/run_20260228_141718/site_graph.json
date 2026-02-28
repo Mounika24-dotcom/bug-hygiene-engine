@@ -1,0 +1,385 @@
+{
+  "nodes": [
+    {
+      "id": "http://localhost:5173/",
+      "type": "page",
+      "url": "http://localhost:5173/"
+    },
+    {
+      "id": "http://localhost:5173/admin",
+      "type": "page",
+      "url": "http://localhost:5173/admin"
+    },
+    {
+      "id": "http://localhost:5173/cart",
+      "type": "page",
+      "url": "http://localhost:5173/cart"
+    },
+    {
+      "id": "http://localhost:5173/menu",
+      "type": "page",
+      "url": "http://localhost:5173/menu"
+    },
+    {
+      "id": "http://localhost:5173/orders",
+      "type": "page",
+      "url": "http://localhost:5173/orders"
+    },
+    {
+      "id": "http://localhost:5173/product/p1",
+      "type": "page",
+      "url": "http://localhost:5173/product/p1"
+    },
+    {
+      "id": "http://localhost:5173/product/p2",
+      "type": "page",
+      "url": "http://localhost:5173/product/p2"
+    },
+    {
+      "id": "http://localhost:5173/product/p3",
+      "type": "page",
+      "url": "http://localhost:5173/product/p3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/menu",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/orders",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/admin",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/cart",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p1",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p2",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/admin",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/cart",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/menu",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/orders",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/product/p1",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/product/p2",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "http://localhost:5173/product/p3",
+      "target": "http://localhost:5173/product/p3",
+      "type": "LINKS_TO"
+    }
+  ],
+  "metrics": {
+    "base": "http://localhost:5173/",
+    "orphans": [],
+    "depths": {
+      "http://localhost:5173/": 0,
+      "http://localhost:5173/product/p2": 1,
+      "http://localhost:5173/orders": 1,
+      "http://localhost:5173/cart": 1,
+      "http://localhost:5173/admin": 1,
+      "http://localhost:5173/product/p1": 1,
+      "http://localhost:5173/product/p3": 1,
+      "http://localhost:5173/menu": 1
+    },
+    "max_depth": 1,
+    "deep_pages": [],
+    "cycles": 36,
+    "nodes": 8,
+    "edges": 64
+  }
+}

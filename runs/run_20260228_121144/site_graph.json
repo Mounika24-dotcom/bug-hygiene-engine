@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "https://www.swiggy.com/",
+      "type": "page",
+      "url": "https://www.swiggy.com/"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/comments/feed",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/comments/feed"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/feed",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/feed"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/plugins/contact-form-7/includes/css/styles.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/plugins/contact-form-7/includes/css/styles.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-divider.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-heading.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-image.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-video.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/aos.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/aos.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/style.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/style.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/header-footer.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/header-footer.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/reset.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/reset.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/theme.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/theme.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/style.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/style.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-frontend.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-frontend.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css"
+    },
+    {
+      "id": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/post-9.css",
+      "type": "page",
+      "url": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/post-9.css"
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/comments/feed",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/feed",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/plugins/contact-form-7/includes/css/styles.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/aos.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/style.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/header-footer.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/reset.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/theme.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/style.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-frontend.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://www.swiggy.com/corporate",
+      "target": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/post-9.css",
+      "type": "LINKS_TO"
+    }
+  ],
+  "metrics": {
+    "base": "https://www.swiggy.com/corporate",
+    "orphans": [],
+    "depths": {
+      "https://www.swiggy.com/corporate": 0,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-divider.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css": 1,
+      "https://www.swiggy.com/": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/reset.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/style.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/header-footer.css": 1,
+      "https://www.swiggy.com/corporate/comments/feed": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/style.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-heading.min.css": 1,
+      "https://www.swiggy.com/corporate/feed": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/aos.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-video.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-image.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-frontend.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/post-9.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/contact-form-7/includes/css/styles.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/theme.css": 1
+    },
+    "max_depth": 1,
+    "deep_pages": [],
+    "cycles": 1,
+    "nodes": 20,
+    "edges": 20
+  }
+}

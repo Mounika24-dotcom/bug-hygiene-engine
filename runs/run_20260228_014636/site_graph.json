@@ -1,0 +1,1737 @@
+{
+  "nodes": [
+    {
+      "id": "https://hackculture.io/",
+      "type": "page",
+      "url": "https://hackculture.io/"
+    },
+    {
+      "id": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "page",
+      "url": "https://hackculture.io/android-chrome-192x192.png"
+    },
+    {
+      "id": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "page",
+      "url": "https://hackculture.io/android-chrome-512x512.png"
+    },
+    {
+      "id": "https://hackculture.io/apple-touch-icon.png",
+      "type": "page",
+      "url": "https://hackculture.io/apple-touch-icon.png"
+    },
+    {
+      "id": "https://hackculture.io/auth",
+      "type": "page",
+      "url": "https://hackculture.io/auth"
+    },
+    {
+      "id": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "page",
+      "url": "https://hackculture.io/challenges/feuji-innovation-challenge"
+    },
+    {
+      "id": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "page",
+      "url": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad"
+    },
+    {
+      "id": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "page",
+      "url": "https://hackculture.io/hackathon/cine-ai-hackfest"
+    },
+    {
+      "id": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "page",
+      "url": "https://hackculture.io/hackathon/feuji-innovation-challenge"
+    },
+    {
+      "id": "https://hackculture.io/hackathon/hallucinate",
+      "type": "page",
+      "url": "https://hackculture.io/hackathon/hallucinate"
+    },
+    {
+      "id": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "page",
+      "url": "https://hackculture.io/hackathon/portkey-ai-builder-challenge"
+    },
+    {
+      "id": "https://hackculture.io/hackathon/witchhunt",
+      "type": "page",
+      "url": "https://hackculture.io/hackathon/witchhunt"
+    },
+    {
+      "id": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "page",
+      "url": "https://hackculture.io/hackathons/cine-ai-hackfest"
+    },
+    {
+      "id": "https://hackculture.io/hackathons/hackaccino",
+      "type": "page",
+      "url": "https://hackculture.io/hackathons/hackaccino"
+    },
+    {
+      "id": "https://hackculture.io/hackathons/hallucinate",
+      "type": "page",
+      "url": "https://hackculture.io/hackathons/hallucinate"
+    },
+    {
+      "id": "https://hackculture.io/hackathons/nxtgen",
+      "type": "page",
+      "url": "https://hackculture.io/hackathons/nxtgen"
+    },
+    {
+      "id": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "page",
+      "url": "https://hackculture.io/hackathons/vibecon-india"
+    },
+    {
+      "id": "https://hackculture.io/hackathons/witchhunt",
+      "type": "page",
+      "url": "https://hackculture.io/hackathons/witchhunt"
+    },
+    {
+      "id": "https://hackculture.io/programs",
+      "type": "page",
+      "url": "https://hackculture.io/programs"
+    },
+    {
+      "id": "https://hackculture.io/site.webmanifest",
+      "type": "page",
+      "url": "https://hackculture.io/site.webmanifest"
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/programs",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/auth",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/witchhunt",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/hallucinate",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/witchhunt",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hackaccino",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/vibecon-india",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/nxtgen",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/hallucinate",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/android-chrome-192x192.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/android-chrome-512x512.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/apple-touch-icon.png",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/auth",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/challenges/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathon/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathon/feuji-innovation-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathon/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathon/portkey-ai-builder-challenge",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathon/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathons/cine-ai-hackfest",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathons/hackaccino",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathons/hallucinate",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathons/nxtgen",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathons/vibecon-india",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/hackathons/witchhunt",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/programs",
+      "type": "LINKS_TO"
+    },
+    {
+      "source": "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad",
+      "target": "https://hackculture.io/site.webmanifest",
+      "type": "LINKS_TO"
+    }
+  ],
+  "metrics": {
+    "base": "https://hackculture.io/challenges/feuji-innovation-challenge",
+    "orphans": [],
+    "depths": {
+      "https://hackculture.io/challenges/feuji-innovation-challenge": 0,
+      "https://hackculture.io/hackathons/hallucinate": 1,
+      "https://hackculture.io/": 1,
+      "https://hackculture.io/hackathon/portkey-ai-builder-challenge": 1,
+      "https://hackculture.io/site.webmanifest": 1,
+      "https://hackculture.io/programs": 1,
+      "https://hackculture.io/hackathon/feuji-innovation-challenge": 1,
+      "https://hackculture.io/hackathons/nxtgen": 1,
+      "https://hackculture.io/hackathons/hackaccino": 1,
+      "https://hackculture.io/hackathons/witchhunt": 1,
+      "https://hackculture.io/auth": 1,
+      "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad": 1,
+      "https://hackculture.io/hackathon/cine-ai-hackfest": 1,
+      "https://hackculture.io/hackathons/cine-ai-hackfest": 1,
+      "https://hackculture.io/hackathon/witchhunt": 1,
+      "https://hackculture.io/hackathon/hallucinate": 1,
+      "https://hackculture.io/hackathons/vibecon-india": 1,
+      "https://hackculture.io/android-chrome-512x512.png": 1,
+      "https://hackculture.io/apple-touch-icon.png": 1,
+      "https://hackculture.io/android-chrome-192x192.png": 1
+    },
+    "max_depth": 1,
+    "deep_pages": [],
+    "cycles": 136,
+    "nodes": 20,
+    "edges": 320
+  }
+}

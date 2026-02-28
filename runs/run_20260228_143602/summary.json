@@ -1,0 +1,46 @@
+{
+  "base_url": "https://www.swiggy.com/corporate/",
+  "pages_crawled": 20,
+  "pages_analyzed": 20,
+  "total_issues": 154,
+  "site_hygiene_score_avg": 62,
+  "run_dir": "runs/run_20260228_143602",
+  "created_at": "2026-02-28T14:36:52",
+  "nav_metrics": {
+    "base": "https://www.swiggy.com/corporate",
+    "orphans": [],
+    "depths": {
+      "https://www.swiggy.com/corporate": 0,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/reset.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/aos.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-image.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/post-9.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/header-footer.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-frontend.min.css": 1,
+      "https://www.swiggy.com/": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/style.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/theme.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-divider.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-video.min.css": 1,
+      "https://www.swiggy.com/corporate/feed": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-heading.min.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/style.css": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css": 1,
+      "https://www.swiggy.com/corporate/comments/feed": 1,
+      "https://www.swiggy.com/corporate/wp-content/plugins/contact-form-7/includes/css/styles.css": 1
+    },
+    "max_depth": 1,
+    "deep_pages": [],
+    "cycles": 1,
+    "nodes": 20,
+    "edges": 20
+  },
+  "graph_files": {
+    "site_graph": "runs/run_20260228_143602/site_graph.json",
+    "pages": "runs/run_20260228_143602/pages.json",
+    "results": "runs/run_20260228_143602/results.json",
+    "issues": "runs/run_20260228_143602/issues.json"
+  }
+}

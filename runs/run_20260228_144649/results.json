@@ -1,0 +1,36 @@
+[
+  {
+    "url": "http://localhost:8000/",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 1,
+    "issues": [
+      {
+        "issue": "Analyzer Crash",
+        "severity": "Critical",
+        "tag": "engine",
+        "locator": "page",
+        "hint": "'Scorer' object has no attribute 'calculate_score'",
+        "suggestion": "Fix Analyzer.detect_issues telemetry parsing.",
+        "evidence": "",
+        "issue_id": "b626d7293d47"
+      }
+    ],
+    "hygiene_score": 85,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 0,
+        "Low": 0
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 15,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  }
+]

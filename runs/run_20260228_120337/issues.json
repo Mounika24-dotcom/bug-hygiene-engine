@@ -1,0 +1,72 @@
+[
+  {
+    "page_url": "https://www.swiggy.com/",
+    "page_title": "",
+    "page_type": "home",
+    "issue": "Missing Meta Description",
+    "severity": "Medium",
+    "tag": "seo",
+    "locator": "meta",
+    "hint": "name=description",
+    "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+    "evidence": "<meta name=\"description\"/>",
+    "issue_id": "f523097d80ec",
+    "screenshot_path": ""
+  },
+  {
+    "page_url": "https://www.swiggy.com/",
+    "page_title": "",
+    "page_type": "home",
+    "issue": "Missing Page Title",
+    "severity": "High",
+    "tag": "seo",
+    "locator": "title",
+    "hint": "",
+    "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+    "evidence": "<title></title>",
+    "issue_id": "e596266f0179",
+    "screenshot_path": ""
+  },
+  {
+    "page_url": "https://www.swiggy.com/",
+    "page_title": "",
+    "page_type": "home",
+    "issue": "Missing Canonical",
+    "severity": "Low",
+    "tag": "seo",
+    "locator": "link",
+    "hint": "",
+    "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+    "evidence": "<link rel=\"canonical\"/>",
+    "issue_id": "4508d29da630",
+    "screenshot_path": ""
+  },
+  {
+    "page_url": "https://www.swiggy.com/",
+    "page_title": "",
+    "page_type": "home",
+    "issue": "Missing H1 Heading",
+    "severity": "Medium",
+    "tag": "accessibility",
+    "locator": "h1",
+    "hint": "",
+    "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+    "evidence": "<h1></h1>",
+    "issue_id": "7e016cdb3850",
+    "screenshot_path": ""
+  },
+  {
+    "page_url": "https://www.swiggy.com/",
+    "page_title": "",
+    "page_type": "home",
+    "issue": "Console Error",
+    "severity": "High",
+    "tag": "functional",
+    "locator": "page",
+    "hint": "Failed to load resource: the server responded with a status of 403 ()",
+    "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+    "evidence": "",
+    "issue_id": "228adaf24cbb",
+    "screenshot_path": ""
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "url": "http://127.0.0.1:8000/boom",
+    "title": "",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n  <!-- DEFECTS:\n    - Missing <title>\n    - Missing meta description\n    - Missing canonical\n  -->\n  <meta charset=\"utf-8\">\n  <link rel=\"stylesheet\" href=\"/assets/style.css\">\n\n  <!-- requestfailed / 404 asset -->\n  <script src=\"/assets/missing.js\"></script>\n</head>\n<body>\n  <!-- DEFECT: Missing H1 (only H2 exists) -->\n  <h2></h2> <!-- DEFECT: Empty heading -->\n\n  <!-- DEFECT: Placeholder content -->\n  <p>Lorem ipsum dolor sit amet, placeholder text goes here.</p>\n\n  <!-- DEFECT: Image missing alt -->\n  <img src=\"/assets/img_ok.png\">\n\n  <!-- DEFECT: Broken image (404) => requestfailed -->\n  <img src=\"/assets/does_not_exist.png\" alt=\"this alt exists but image is broken\">\n\n  <nav>\n    <!-- same-domain links for BFS -->\n    <a href=\"/about#team\">About (has fragment)</a>\n    <a href=\"/form\">Form page</a>\n    <a href=\"/broken\">Broken page</a>\n\n    <!-- DEFECT: Broken internal link -->\n    <a href=\"/this-page-does-not-exist\">Broken link</a>\n\n    <!-- External link that returns 451 (good for \"External Link Blocked\") -->\n    <a href=\"https://httpstat.us/451\">External blocked link (451)</a>\n\n    <!-- Junk hrefs your crawler should skip -->\n    <a href=\"mailto:test@example.com\">Mailto (skip)</a>\n    <a href=\"javascript:void(0)\">JS href (skip)</a>\n    <a href=\"#local\">Fragment only (skip)</a>\n  </nav>\n\n  <script>\n    // TELEMETRY DEFECTS:\n    console.error(\"Dummy console error from index.html\"); // Console Error\n\n    // JS runtime exception (pageerror)\n    setTimeout(() => {\n      throw new Error(\"Dummy JS exception from index.html\");\n    }, 50);\n\n    // XHR/fetch failures:\n    fetch(\"/api/fail500\").catch(()=>{});\n    fetch(\"/api/unauthorized401\").catch(()=>{});\n    fetch(\"/api/forbidden403\").catch(()=>{});\n    fetch(\"/api/notfound404\").catch(()=>{});\n\n    // requestfailed (connection refused) - different port\n    fetch(\"http://127.0.0.1:9999/nope\").catch(()=>{});\n\n    // slower endpoint (timing)\n    fetch(\"/api/slow\").catch(()=>{});\n  </script>\n\n</body></html>",
+    "telemetry": {
+      "url": "http://127.0.0.1:8000/boom",
+      "title": "",
+      "screenshot_path": "runs/screens/http_127_0_0_1_8000_boom.png",
+      "performance": {
+        "connectStart": 1772217479023,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772217479023,
+        "domainLookupEnd": 1772217479023,
+        "responseStart": 1772217479025,
+        "connectEnd": 1772217479024,
+        "responseEnd": 1772217479026,
+        "requestStart": 1772217479024,
+        "domLoading": 1772217479030,
+        "redirectStart": 0,
+        "loadEventEnd": 1772217479050,
+        "domComplete": 1772217479050,
+        "navigationStart": 1772217479019,
+        "loadEventStart": 1772217479050,
+        "domContentLoadedEventEnd": 1772217479047,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772217479047,
+        "fetchStart": 1772217479019,
+        "domContentLoadedEventStart": 1772217479047
+      },
+      "dead_clicks": [],
+      "api_failures": [
+        {
+          "url": "http://127.0.0.1:8000/api/fail500",
+          "status": 500,
+          "resource_type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:8000/api/unauthorized401",
+          "status": 401,
+          "resource_type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:8000/api/forbidden403",
+          "status": 403,
+          "resource_type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:8000/api/notfound404",
+          "status": 404,
+          "resource_type": "fetch"
+        }
+      ],
+      "unauthorized_api": [
+        {
+          "url": "http://127.0.0.1:8000/api/unauthorized401",
+          "status": 401
+        },
+        {
+          "url": "http://127.0.0.1:8000/api/forbidden403",
+          "status": 403
+        }
+      ],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+          },
+          {
+            "type": "error",
+            "text": "Dummy console error from index.html"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 401 (UNAUTHORIZED)"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 (FORBIDDEN)"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+          },
+          {
+            "type": "warning",
+            "text": "Dummy console warning from about.html"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)"
+          }
+        ],
+        "page_errors": [
+          "Dummy JS exception from index.html"
+        ],
+        "request_failures": [
+          {
+            "url": "http://127.0.0.1:8000/assets/missing.js",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "http://127.0.0.1:9999/nope",
+            "failure": "net::ERR_CONNECTION_REFUSED"
+          }
+        ]
+      }
+    },
+    "links": [],
+    "logs": {
+      "console": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+        },
+        {
+          "type": "error",
+          "text": "Dummy console error from index.html"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 401 (UNAUTHORIZED)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 (FORBIDDEN)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+        },
+        {
+          "type": "warning",
+          "text": "Dummy console warning from about.html"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)"
+        }
+      ],
+      "page_errors": [
+        "Dummy JS exception from index.html"
+      ],
+      "request_failures": [
+        {
+          "url": "http://127.0.0.1:8000/assets/missing.js",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:9999/nope",
+          "failure": "net::ERR_CONNECTION_REFUSED"
+        }
+      ]
+    }
+  }
+]

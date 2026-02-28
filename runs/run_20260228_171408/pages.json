@@ -1,0 +1,808 @@
+[
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a aria-current=\"page\" class=\"active\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a class=\"\" href=\"/menu\">Menu</a><a class=\"\" href=\"/orders\">Orders</a><a class=\"\" href=\"/admin\">Admin</a></div><div class=\"row\"><a class=\"\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"grid\"><div class=\"col-12 card\"><div class=\"spread\"><div><h1 style=\"font-size: 34px;\">Order food fast — demo UI</h1><p>Browse menu → add to cart → checkout → track order. No backend needed.</p><div class=\"row\" style=\"margin-top: 12px;\"><a class=\"btn primary\" href=\"/menu\">Browse Menu</a><button class=\"btn\">Reset Demo Data</button></div></div><div class=\"card\" style=\"min-width: 280px;\"><div class=\"row\" style=\"justify-content: space-between;\"><div><div class=\"kpi\">499+</div><small>Free delivery above</small></div><div><div class=\"kpi\">5%</div><small>Demo tax</small></div></div><hr><small>Tip: Admin page lets you add/edit items (saved in localStorage).</small></div></div></div><div class=\"col-12\"><div class=\"spread\" style=\"margin-bottom: 10px;\"><h2>Top picks</h2><a class=\"btn\" href=\"/menu\">View all</a></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Paneer Tikka Bowl\" src=\"/src/assets/paneer.jpg\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Paneer Tikka Bowl</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Bowls</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.6</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">12 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹249</div><small>High Protein • Spicy</small></div></div><p style=\"margin-top: 8px;\">Smoky paneer, rice, salad, mint sauce.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p1\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Chicken Shawarma Wrap\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237c5cff%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231ec28b%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3ESHAWARMA%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Chicken Shawarma Wrap</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(255, 77, 79, 0.15); border: 1px solid rgba(255, 77, 79, 0.35); color: rgba(234, 240, 255, 0.95);\">NON-VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Wraps</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.5</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">10 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹199</div><small>Best Seller</small></div></div><p style=\"margin-top: 8px;\">Juicy chicken, garlic sauce, pickles.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p2\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Masala Dosa\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237c5cff%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231ec28b%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3EDOSA%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Masala Dosa</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">South Indian</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.7</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">15 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹159</div><small>Classic</small></div></div><p style=\"margin-top: 8px;\">Crispy dosa, potato masala, chutneys.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p3\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279049699,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279049699,
+        "domainLookupEnd": 1772279049699,
+        "responseStart": 1772279049701,
+        "connectEnd": 1772279049699,
+        "responseEnd": 1772279049703,
+        "requestStart": 1772279049700,
+        "domLoading": 1772279049706,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279049760,
+        "domComplete": 1772279049760,
+        "navigationStart": 1772279049691,
+        "loadEventStart": 1772279049760,
+        "domContentLoadedEventEnd": 1772279049759,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279049717,
+        "fetchStart": 1772279049692,
+        "domContentLoadedEventStart": 1772279049759
+      },
+      "dead_clicks": [
+        {
+          "selector": "a.active",
+          "text": "🍜 FoodCart Demo",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  {
+    "url": "http://localhost:5173/menu",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a class=\"\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a aria-current=\"page\" class=\"active\" href=\"/menu\">Menu</a><a class=\"\" href=\"/orders\">Orders</a><a class=\"\" href=\"/admin\">Admin</a></div><div class=\"row\"><a class=\"\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"grid\"><div class=\"col-12 card\"><div class=\"spread\"><div><h2>Menu</h2><p>Search + filter + add to cart (all frontend-only).</p></div><div class=\"row\"><input class=\"input\" placeholder=\"Search food...\" value=\"\" style=\"width: 260px;\"><select><option value=\"All\">All</option><option value=\"Bowls\">Bowls</option><option value=\"Wraps\">Wraps</option><option value=\"South Indian\">South Indian</option><option value=\"Burgers\">Burgers</option><option value=\"Desserts\">Desserts</option><option value=\"Noodles\">Noodles</option></select><select><option value=\"relevance\">Sort: Relevance</option><option value=\"priceLow\">Price: Low → High</option><option value=\"priceHigh\">Price: High → Low</option><option value=\"rating\">Rating</option></select><button class=\"btn\">Veg Only</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Paneer Tikka Bowl\" src=\"/src/assets/paneer.jpg\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Paneer Tikka Bowl</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Bowls</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.6</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">12 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹249</div><small>High Protein • Spicy</small></div></div><p style=\"margin-top: 8px;\">Smoky paneer, rice, salad, mint sauce.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p1\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Chicken Shawarma Wrap\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237c5cff%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231ec28b%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3ESHAWARMA%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Chicken Shawarma Wrap</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(255, 77, 79, 0.15); border: 1px solid rgba(255, 77, 79, 0.35); color: rgba(234, 240, 255, 0.95);\">NON-VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Wraps</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.5</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">10 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹199</div><small>Best Seller</small></div></div><p style=\"margin-top: 8px;\">Juicy chicken, garlic sauce, pickles.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p2\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Masala Dosa\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237c5cff%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231ec28b%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3EDOSA%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Masala Dosa</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">South Indian</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.7</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">15 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹159</div><small>Classic</small></div></div><p style=\"margin-top: 8px;\">Crispy dosa, potato masala, chutneys.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p3\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Veg Burger Deluxe\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%231ec28b%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237c5cff%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3EVEG-BURGER%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Veg Burger Deluxe</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Burgers</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.2</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">11 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹179</div><small>Cheesy</small></div></div><p style=\"margin-top: 8px;\">Crunch patty, cheese, house mayo.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p4\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Brownie Sundae\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ffb020%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2324c6dc%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3EBROWNIE%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Brownie Sundae</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Desserts</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.8</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">6 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹149</div><small>Sweet</small></div></div><p style=\"margin-top: 8px;\">Warm brownie, ice cream, chocolate.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p5\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div><div class=\"col-4\"><div class=\"card\"><img alt=\"Spicy Ramen (Egg)\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%2324c6dc%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23ffb020%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3ERAMEN%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"><div class=\"spread\" style=\"margin-top: 10px;\"><div><h3 style=\"margin-bottom: 6px;\">Spicy Ramen (Egg)</h3><div class=\"row\"><span class=\"chip\" style=\"background: rgba(255, 77, 79, 0.15); border: 1px solid rgba(255, 77, 79, 0.35); color: rgba(234, 240, 255, 0.95);\">NON-VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Noodles</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.4</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">13 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹229</div><small>Hot</small></div></div><p style=\"margin-top: 8px;\">Broth, noodles, egg, toppings.</p><div class=\"row\" style=\"margin-top: 12px; justify-content: space-between;\"><a class=\"btn\" href=\"/product/p6\">View</a><button class=\"btn primary\">Add to cart</button></div></div></div></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/menu",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279055771,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279055771,
+        "domainLookupEnd": 1772279055771,
+        "responseStart": 1772279055772,
+        "connectEnd": 1772279055771,
+        "responseEnd": 1772279055772,
+        "requestStart": 1772279055771,
+        "domLoading": 1772279055773,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279055803,
+        "domComplete": 1772279055803,
+        "navigationStart": 1772279055771,
+        "loadEventStart": 1772279055803,
+        "domContentLoadedEventEnd": 1772279055802,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279055775,
+        "fetchStart": 1772279055771,
+        "domContentLoadedEventStart": 1772279055802
+      },
+      "dead_clicks": [
+        {
+          "selector": "a.active",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  {
+    "url": "http://localhost:5173/orders",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a class=\"\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a class=\"\" href=\"/menu\">Menu</a><a aria-current=\"page\" class=\"active\" href=\"/orders\">Orders</a><a class=\"\" href=\"/admin\">Admin</a></div><div class=\"row\"><a class=\"\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"card\"><div class=\"spread\"><h2>Orders</h2><a class=\"btn\" href=\"/menu\">Order more</a></div><hr><p>No orders yet. Place one from checkout.</p></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/orders",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279061773,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279061773,
+        "domainLookupEnd": 1772279061773,
+        "responseStart": 1772279061774,
+        "connectEnd": 1772279061773,
+        "responseEnd": 1772279061774,
+        "requestStart": 1772279061773,
+        "domLoading": 1772279061775,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279061804,
+        "domComplete": 1772279061804,
+        "navigationStart": 1772279061772,
+        "loadEventStart": 1772279061804,
+        "domContentLoadedEventEnd": 1772279061804,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279061776,
+        "fetchStart": 1772279061772,
+        "domContentLoadedEventStart": 1772279061804
+      },
+      "dead_clicks": [
+        {
+          "selector": "a",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a.active",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  {
+    "url": "http://localhost:5173/admin",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a class=\"\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a class=\"\" href=\"/menu\">Menu</a><a class=\"\" href=\"/orders\">Orders</a><a aria-current=\"page\" class=\"active\" href=\"/admin\">Admin</a></div><div class=\"row\"><a class=\"\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"card\"><div class=\"spread\"><div><h2>Admin (Frontend-only)</h2><p>Add/edit/delete products. Stored in localStorage.</p></div><button class=\"btn primary\">+ Add Product</button></div><hr><table class=\"table\"><thead><tr><th>Name</th><th>Category</th><th>Veg</th><th>Price</th><th></th></tr></thead><tbody><tr><td><b>Paneer Tikka Bowl</b></td><td><small>Bowls</small></td><td><small>Yes</small></td><td><b>₹249</b></td><td class=\"row\"><button class=\"btn\">Edit</button><button class=\"btn danger\">Delete</button></td></tr><tr><td><b>Chicken Shawarma Wrap</b></td><td><small>Wraps</small></td><td><small>No</small></td><td><b>₹199</b></td><td class=\"row\"><button class=\"btn\">Edit</button><button class=\"btn danger\">Delete</button></td></tr><tr><td><b>Masala Dosa</b></td><td><small>South Indian</small></td><td><small>Yes</small></td><td><b>₹159</b></td><td class=\"row\"><button class=\"btn\">Edit</button><button class=\"btn danger\">Delete</button></td></tr><tr><td><b>Veg Burger Deluxe</b></td><td><small>Burgers</small></td><td><small>Yes</small></td><td><b>₹179</b></td><td class=\"row\"><button class=\"btn\">Edit</button><button class=\"btn danger\">Delete</button></td></tr><tr><td><b>Brownie Sundae</b></td><td><small>Desserts</small></td><td><small>Yes</small></td><td><b>₹149</b></td><td class=\"row\"><button class=\"btn\">Edit</button><button class=\"btn danger\">Delete</button></td></tr><tr><td><b>Spicy Ramen (Egg)</b></td><td><small>Noodles</small></td><td><small>No</small></td><td><b>₹229</b></td><td class=\"row\"><button class=\"btn\">Edit</button><button class=\"btn danger\">Delete</button></td></tr></tbody></table></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/admin",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279067752,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279067752,
+        "domainLookupEnd": 1772279067752,
+        "responseStart": 1772279067754,
+        "connectEnd": 1772279067752,
+        "responseEnd": 1772279067754,
+        "requestStart": 1772279067753,
+        "domLoading": 1772279067755,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279067785,
+        "domComplete": 1772279067785,
+        "navigationStart": 1772279067752,
+        "loadEventStart": 1772279067785,
+        "domContentLoadedEventEnd": 1772279067785,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279067757,
+        "fetchStart": 1772279067752,
+        "domContentLoadedEventStart": 1772279067785
+      },
+      "dead_clicks": [
+        {
+          "selector": "a",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a.active",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  {
+    "url": "http://localhost:5173/cart",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a class=\"\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a class=\"\" href=\"/menu\">Menu</a><a class=\"\" href=\"/orders\">Orders</a><a class=\"\" href=\"/admin\">Admin</a></div><div class=\"row\"><a aria-current=\"page\" class=\"active\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"grid\"><div class=\"col-8\"><div class=\"card\"><div class=\"spread\"><h2>Your Cart</h2><button class=\"btn danger\">Clear</button></div><hr><p>Your cart is empty.</p><div style=\"margin-top: 12px;\"><a class=\"btn primary\" href=\"/menu\">Go to Menu</a></div></div></div><div class=\"col-4\"><div class=\"card\"><h3>Bill Summary</h3><hr><div class=\"spread\"><small>Subtotal</small><b>₹0</b></div><div class=\"spread\"><small>Delivery</small><b>₹0</b></div><div class=\"spread\"><small>Tax (5%)</small><b>₹0</b></div><hr><div class=\"spread\"><small>Total</small><b class=\"kpi\" style=\"font-size: 22px;\">₹0</b></div><div class=\"row\" style=\"margin-top: 12px;\"><a class=\"btn\" href=\"/menu\">Add more</a><button class=\"btn primary\" disabled=\"\" title=\"Add items first\" style=\"opacity: 0.5;\">Checkout</button></div><hr><small>Free delivery above ₹499 (demo rule).</small></div></div></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/cart",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279073720,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279073720,
+        "domainLookupEnd": 1772279073720,
+        "responseStart": 1772279073722,
+        "connectEnd": 1772279073720,
+        "responseEnd": 1772279073722,
+        "requestStart": 1772279073721,
+        "domLoading": 1772279073723,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279073754,
+        "domComplete": 1772279073754,
+        "navigationStart": 1772279073720,
+        "loadEventStart": 1772279073754,
+        "domContentLoadedEventEnd": 1772279073753,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279073725,
+        "fetchStart": 1772279073720,
+        "domContentLoadedEventStart": 1772279073753
+      },
+      "dead_clicks": [
+        {
+          "selector": "a",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a.active",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  {
+    "url": "http://localhost:5173/product/p1",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a class=\"\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a class=\"\" href=\"/menu\">Menu</a><a class=\"\" href=\"/orders\">Orders</a><a class=\"\" href=\"/admin\">Admin</a></div><div class=\"row\"><a class=\"\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"grid\"><div class=\"col-6 card\"><img alt=\"Paneer Tikka Bowl\" src=\"/src/assets/paneer.jpg\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"></div><div class=\"col-6 card\"><div class=\"spread\"><div><h2>Paneer Tikka Bowl</h2><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Bowls</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.6</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">12 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹249</div><small>High Protein • Spicy</small></div></div><hr><p>Smoky paneer, rice, salad, mint sauce.</p><div style=\"margin-top: 10px;\"><small><b>Allergens:</b> Dairy</small></div><div class=\"row\" style=\"margin-top: 14px; justify-content: space-between;\"><a class=\"btn\" href=\"/menu\">Back</a><button class=\"btn primary\">Add to cart</button></div></div></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/product/p1",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279079664,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279079664,
+        "domainLookupEnd": 1772279079664,
+        "responseStart": 1772279079666,
+        "connectEnd": 1772279079664,
+        "responseEnd": 1772279079666,
+        "requestStart": 1772279079664,
+        "domLoading": 1772279079667,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279079698,
+        "domComplete": 1772279079698,
+        "navigationStart": 1772279079664,
+        "loadEventStart": 1772279079698,
+        "domContentLoadedEventEnd": 1772279079697,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279079668,
+        "fetchStart": 1772279079664,
+        "domContentLoadedEventStart": 1772279079697
+      },
+      "dead_clicks": [
+        {
+          "selector": "a",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  {
+    "url": "http://localhost:5173/product/p2",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a class=\"\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a class=\"\" href=\"/menu\">Menu</a><a class=\"\" href=\"/orders\">Orders</a><a class=\"\" href=\"/admin\">Admin</a></div><div class=\"row\"><a class=\"\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"grid\"><div class=\"col-6 card\"><img alt=\"Chicken Shawarma Wrap\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237c5cff%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231ec28b%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3ESHAWARMA%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"></div><div class=\"col-6 card\"><div class=\"spread\"><div><h2>Chicken Shawarma Wrap</h2><div class=\"row\"><span class=\"chip\" style=\"background: rgba(255, 77, 79, 0.15); border: 1px solid rgba(255, 77, 79, 0.35); color: rgba(234, 240, 255, 0.95);\">NON-VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">Wraps</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.5</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">10 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹199</div><small>Best Seller</small></div></div><hr><p>Juicy chicken, garlic sauce, pickles.</p><div style=\"margin-top: 10px;\"><small><b>Allergens:</b> Gluten</small></div><div class=\"row\" style=\"margin-top: 14px; justify-content: space-between;\"><a class=\"btn\" href=\"/menu\">Back</a><button class=\"btn primary\">Add to cart</button></div></div></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/product/p2",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279085624,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279085624,
+        "domainLookupEnd": 1772279085624,
+        "responseStart": 1772279085625,
+        "connectEnd": 1772279085624,
+        "responseEnd": 1772279085625,
+        "requestStart": 1772279085624,
+        "domLoading": 1772279085626,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279085656,
+        "domComplete": 1772279085656,
+        "navigationStart": 1772279085624,
+        "loadEventStart": 1772279085656,
+        "domContentLoadedEventEnd": 1772279085656,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279085628,
+        "fetchStart": 1772279085624,
+        "domContentLoadedEventStart": 1772279085656
+      },
+      "dead_clicks": [
+        {
+          "selector": "a",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  {
+    "url": "http://localhost:5173/product/p3",
+    "title": "dummy_site",
+    "dom": "<!DOCTYPE html><html lang=\"en\"><head>\n    <script type=\"module\">\nimport RefreshRuntime from \"/@react-refresh\"\nRefreshRuntime.injectIntoGlobalHook(window)\nwindow.$RefreshReg$ = () => {}\nwindow.$RefreshSig$ = () => (type) => type\nwindow.__vite_plugin_react_preamble_installed__ = true\n</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>dummy_site</title>\n  <style type=\"text/css\" data-vite-dev-id=\"/Users/yegireddimounika/Desktop/dummy_site/src/styles.css\">:root { --bg:#0b1020; --card:#121a33; --muted:#8ea0c6; --txt:#eaf0ff; --accent:#7c5cff; }\n*{box-sizing:border-box}\nbody{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:radial-gradient(1200px 600px at 10% 0%, #1a2561 0%, var(--bg) 45%);color:var(--txt)}\na{color:inherit;text-decoration:none}\n.container{max-width:1100px;margin:0 auto;padding:18px}\n.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}\n.spread{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}\n.card{background:linear-gradient(180deg,#131c3a 0%, var(--card) 100%);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}\n.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}\n.col-4{grid-column:span 4}\n.col-6{grid-column:span 6}\n.col-8{grid-column:span 8}\n.col-12{grid-column:span 12}\n@media (max-width:900px){.col-4,.col-6,.col-8{grid-column:span 12}}\n.btn{border:0;border-radius:12px;padding:10px 12px;background:rgba(255,255,255,.08);color:var(--txt);cursor:pointer}\n.btn:hover{background:rgba(255,255,255,.12)}\n.btn.primary{background:linear-gradient(90deg,var(--accent),#24c6dc);color:#071022;font-weight:700}\n.btn.danger{background:rgba(255,77,79,.15);border:1px solid rgba(255,77,79,.35)}\n.input, select, textarea{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.22);color:var(--txt);outline:none}\nlabel{font-size:12px;color:var(--muted)}\nh1,h2,h3{margin:0 0 8px 0}\np{margin:0;color:var(--muted);line-height:1.4}\nhr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:14px 0}\nsmall{color:var(--muted)}\n.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:12px;color:var(--muted)}\n.kpi{font-size:22px;font-weight:800}\n.nav{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}\n.nav a{padding:10px 10px;border-radius:10px}\n.nav a.active{background:rgba(255,255,255,.10)}\n.table{width:100%;border-collapse:separate;border-spacing:0 10px}\n.table td,.table th{padding:10px 10px;text-align:left}\n.table tr{background:rgba(255,255,255,.05)}\n.table tr td:first-child,.table tr th:first-child{border-top-left-radius:12px;border-bottom-left-radius:12px}\n.table tr td:last-child,.table tr th:last-child{border-top-right-radius:12px;border-bottom-right-radius:12px}</style></head>\n  <body>\n    <div id=\"root\"><div class=\"nav\"><div class=\"container spread\"><div class=\"row\"><a class=\"\" href=\"/\" style=\"font-weight: 900; letter-spacing: 0.2px;\">🍜 FoodCart Demo</a><a class=\"\" href=\"/menu\">Menu</a><a class=\"\" href=\"/orders\">Orders</a><a class=\"\" href=\"/admin\">Admin</a></div><div class=\"row\"><a class=\"\" href=\"/cart\">🛒 Cart (0)</a><button class=\"btn primary\">Login</button></div></div></div><div class=\"container\"><div class=\"grid\"><div class=\"col-6 card\"><img alt=\"Masala Dosa\" src=\"data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22520%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237c5cff%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231ec28b%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2220%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%23000%22%20flood-opacity%3D%22.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Ffilter%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20filter%3D%22url(%23s)%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%2290%22%20y%3D%2290%22%20rx%3D%2226%22%20ry%3D%2226%22%20width%3D%22620%22%20height%3D%22340%22%20fill%3D%22rgba(0%2C0%2C0%2C.24)%22%20stroke%3D%22rgba(255%2C255%2C255%2C.35)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22210%22%20cy%3D%22260%22%20r%3D%2286%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22200%22%20width%3D%22320%22%20height%3D%2240%22%20rx%3D%2220%22%20fill%3D%22rgba(255%2C255%2C255%2C.38)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22260%22%20width%3D%22260%22%20height%3D%2234%22%20rx%3D%2217%22%20fill%3D%22rgba(255%2C255%2C255%2C.28)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Crect%20x%3D%22330%22%20y%3D%22310%22%20width%3D%22200%22%20height%3D%2228%22%20rx%3D%2214%22%20fill%3D%22rgba(255%2C255%2C255%2C.22)%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22140%22%20font-size%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C.95)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%20font-weight%3D%22800%22%3EFOOD%20DEMO%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22110%22%20y%3D%22170%22%20font-size%3D%2218%22%20fill%3D%22rgba(255%2C255%2C255%2C.85)%22%20font-family%3D%22ui-sans-serif%2C%20system-ui%22%3EDOSA%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E\" style=\"width: 100%; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.1);\"></div><div class=\"col-6 card\"><div class=\"spread\"><div><h2>Masala Dosa</h2><div class=\"row\"><span class=\"chip\" style=\"background: rgba(30, 194, 139, 0.15); border: 1px solid rgba(30, 194, 139, 0.35); color: rgba(234, 240, 255, 0.95);\">VEG</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">South Indian</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">⭐ 4.7</span><span class=\"chip\" style=\"background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(234, 240, 255, 0.95);\">15 min</span></div></div><div style=\"text-align: right;\"><div class=\"kpi\">₹159</div><small>Classic</small></div></div><hr><p>Crispy dosa, potato masala, chutneys.</p><div style=\"margin-top: 10px;\"><small><b>Allergens:</b> None</small></div><div class=\"row\" style=\"margin-top: 14px; justify-content: space-between;\"><a class=\"btn\" href=\"/menu\">Back</a><button class=\"btn primary\">Add to cart</button></div></div></div></div><div class=\"container footer\" style=\"padding-top: 30px; padding-bottom: 60px;\"><hr><div class=\"spread\"><small>Frontend-only demo • All data stored in localStorage</small><small>Built with React + Router</small></div></div></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  \n\n</body></html>",
+    "telemetry": {
+      "url": "http://localhost:5173/product/p3",
+      "title": "dummy_site",
+      "screenshot_path": "",
+      "performance": {
+        "connectStart": 1772279091560,
+        "secureConnectionStart": 0,
+        "unloadEventEnd": 0,
+        "domainLookupStart": 1772279091560,
+        "domainLookupEnd": 1772279091560,
+        "responseStart": 1772279091562,
+        "connectEnd": 1772279091560,
+        "responseEnd": 1772279091562,
+        "requestStart": 1772279091561,
+        "domLoading": 1772279091563,
+        "redirectStart": 0,
+        "loadEventEnd": 1772279091594,
+        "domComplete": 1772279091594,
+        "navigationStart": 1772279091560,
+        "loadEventStart": 1772279091594,
+        "domContentLoadedEventEnd": 1772279091594,
+        "unloadEventStart": 0,
+        "redirectEnd": 0,
+        "domInteractive": 1772279091565,
+        "fetchStart": 1772279091560,
+        "domContentLoadedEventStart": 1772279091594
+      },
+      "dead_clicks": [
+        {
+          "selector": "a",
+          "text": "Menu",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Orders",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "Admin",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        },
+        {
+          "selector": "a",
+          "text": "🛒 Cart (0)",
+          "reason": "no_change",
+          "url": "http://localhost:5173/"
+        }
+      ],
+      "api_failures": [],
+      "unauthorized_api": [],
+      "link_checks": [],
+      "logs": {
+        "console": [
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+          },
+          {
+            "type": "warning",
+            "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+          }
+        ],
+        "page_errors": [],
+        "request_failures": []
+      }
+    },
+    "links": [
+      "http://localhost:5173/",
+      "http://localhost:5173/admin",
+      "http://localhost:5173/cart",
+      "http://localhost:5173/menu",
+      "http://localhost:5173/orders",
+      "http://localhost:5173/product/p1",
+      "http://localhost:5173/product/p2",
+      "http://localhost:5173/product/p3"
+    ],
+    "logs": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition."
+        },
+        {
+          "type": "warning",
+          "text": "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+        }
+      ],
+      "page_errors": [],
+      "request_failures": []
+    }
+  }
+]

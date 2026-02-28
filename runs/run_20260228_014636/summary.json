@@ -1,0 +1,46 @@
+{
+  "base_url": "https://hackculture.io/challenges/feuji-innovation-challenge",
+  "pages_crawled": 20,
+  "pages_analyzed": 20,
+  "total_issues": 433,
+  "site_hygiene_score_avg": 13,
+  "run_dir": "runs/run_20260228_014636",
+  "created_at": "2026-02-28T01:49:40",
+  "nav_metrics": {
+    "base": "https://hackculture.io/challenges/feuji-innovation-challenge",
+    "orphans": [],
+    "depths": {
+      "https://hackculture.io/challenges/feuji-innovation-challenge": 0,
+      "https://hackculture.io/hackathons/hallucinate": 1,
+      "https://hackculture.io/": 1,
+      "https://hackculture.io/hackathon/portkey-ai-builder-challenge": 1,
+      "https://hackculture.io/site.webmanifest": 1,
+      "https://hackculture.io/programs": 1,
+      "https://hackculture.io/hackathon/feuji-innovation-challenge": 1,
+      "https://hackculture.io/hackathons/nxtgen": 1,
+      "https://hackculture.io/hackathons/hackaccino": 1,
+      "https://hackculture.io/hackathons/witchhunt": 1,
+      "https://hackculture.io/auth": 1,
+      "https://hackculture.io/challenges/techstars-startup-weekend-ai-hyderabad": 1,
+      "https://hackculture.io/hackathon/cine-ai-hackfest": 1,
+      "https://hackculture.io/hackathons/cine-ai-hackfest": 1,
+      "https://hackculture.io/hackathon/witchhunt": 1,
+      "https://hackculture.io/hackathon/hallucinate": 1,
+      "https://hackculture.io/hackathons/vibecon-india": 1,
+      "https://hackculture.io/android-chrome-512x512.png": 1,
+      "https://hackculture.io/apple-touch-icon.png": 1,
+      "https://hackculture.io/android-chrome-192x192.png": 1
+    },
+    "max_depth": 1,
+    "deep_pages": [],
+    "cycles": 136,
+    "nodes": 20,
+    "edges": 320
+  },
+  "graph_files": {
+    "site_graph": "runs/run_20260228_014636/site_graph.json",
+    "pages": "runs/run_20260228_014636/pages.json",
+    "results": "runs/run_20260228_014636/results.json",
+    "issues": "runs/run_20260228_014636/issues.json"
+  }
+}

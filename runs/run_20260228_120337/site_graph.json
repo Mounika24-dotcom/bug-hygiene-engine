@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "id": "https://www.swiggy.com/",
+      "type": "page",
+      "url": "https://www.swiggy.com/"
+    }
+  ],
+  "edges": [],
+  "metrics": {
+    "base": "https://www.swiggy.com/",
+    "orphans": [],
+    "depths": {
+      "https://www.swiggy.com/": 0
+    },
+    "max_depth": 0,
+    "deep_pages": [],
+    "cycles": 0,
+    "nodes": 1,
+    "edges": 0
+  }
+}

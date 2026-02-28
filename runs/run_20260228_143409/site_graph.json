@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "id": "http://localhost:8000/",
+      "type": "page",
+      "url": "http://localhost:8000/"
+    }
+  ],
+  "edges": [],
+  "metrics": {
+    "base": "http://localhost:8000/",
+    "orphans": [],
+    "depths": {
+      "http://localhost:8000/": 0
+    },
+    "max_depth": 0,
+    "deep_pages": [],
+    "cycles": 0,
+    "nodes": 1,
+    "edges": 0
+  }
+}

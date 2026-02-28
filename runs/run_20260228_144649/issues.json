@@ -1,0 +1,16 @@
+[
+  {
+    "page_url": "http://localhost:8000/",
+    "page_title": "",
+    "page_type": "unknown",
+    "issue": "Analyzer Crash",
+    "severity": "Critical",
+    "tag": "engine",
+    "locator": "page",
+    "hint": "'Scorer' object has no attribute 'calculate_score'",
+    "suggestion": "Fix Analyzer.detect_issues telemetry parsing.",
+    "evidence": "",
+    "issue_id": "b626d7293d47",
+    "screenshot_path": ""
+  }
+]

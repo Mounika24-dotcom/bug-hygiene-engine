@@ -1,0 +1,380 @@
+[
+  {
+    "url": "http://127.0.0.1:8000/",
+    "title": "",
+    "page_type": "home",
+    "issues_count": 24,
+    "issues": [
+      {
+        "issue": "Broken Link",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "a",
+        "hint": "href=javascript:void(0)",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a href=\"javascript:void(0)\">JS href (skip)</a>"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "High",
+        "tag": "accessibility",
+        "locator": "img",
+        "hint": "src=/assets/img_ok.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img src=\"/assets/img_ok.png\"/>"
+      },
+      {
+        "issue": "Empty Heading",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "h2",
+        "hint": "",
+        "suggestion": "Remove empty heading tags or add meaningful heading text for structure.",
+        "evidence": "<h2></h2>"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "High",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Placeholder Text Found",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "page",
+        "hint": "lorem/placeholder",
+        "suggestion": "Replace placeholder text with real content.",
+        "evidence": ""
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Dummy console error from index.html",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 401 (UNAUTHORIZED)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 403 (FORBIDDEN)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      },
+      {
+        "issue": "JS Exception",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Dummy JS exception from index.html",
+        "suggestion": "Fix the thrown error in the app code; add try/catch and validate null/undefined access.",
+        "evidence": ""
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED http://127.0.0.1:8000/assets/missing.js",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": ""
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_CONNECTION_REFUSED http://127.0.0.1:9999/nope",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": ""
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "500 http://127.0.0.1:8000/api/fail500",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": ""
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "401 http://127.0.0.1:8000/api/unauthorized401",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": ""
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 http://127.0.0.1:8000/api/forbidden403",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": ""
+      },
+      {
+        "issue": "API Failure",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "404 http://127.0.0.1:8000/api/notfound404",
+        "suggestion": "Investigate backend/API error; verify endpoint, auth, and response mapping.",
+        "evidence": ""
+      },
+      {
+        "issue": "Unauthorized API Call",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "401 http://127.0.0.1:8000/api/unauthorized401",
+        "suggestion": "Check authentication/authorization; ensure tokens/cookies are valid and sent.",
+        "evidence": ""
+      },
+      {
+        "issue": "Unauthorized API Call",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 http://127.0.0.1:8000/api/forbidden403",
+        "suggestion": "Check authentication/authorization; ensure tokens/cookies are valid and sent.",
+        "evidence": ""
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "failed https://httpstat.us/451",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260227_234355/screens/http_127_0_0_1_8000.png"
+  },
+  {
+    "url": "http://127.0.0.1:8000/about",
+    "title": "About - Dummy Bug Site",
+    "page_type": "unknown",
+    "issues_count": 2,
+    "issues": [
+      {
+        "issue": "Empty Heading",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "h2",
+        "hint": "",
+        "suggestion": "Remove empty heading tags or add meaningful heading text for structure.",
+        "evidence": "<h2> </h2>"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      }
+    ],
+    "screenshot_path": "runs/run_20260227_234355/screens/http_127_0_0_1_8000_about.png"
+  },
+  {
+    "url": "http://127.0.0.1:8000/broken",
+    "title": "Broken - Dummy Bug Site",
+    "page_type": "unknown",
+    "issues_count": 5,
+    "issues": [
+      {
+        "issue": "Empty Heading",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "h3",
+        "hint": "",
+        "suggestion": "Remove empty heading tags or add meaningful heading text for structure.",
+        "evidence": "<h3></h3>"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Another console error from broken.html",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260227_234355/screens/http_127_0_0_1_8000_broken.png"
+  },
+  {
+    "url": "http://127.0.0.1:8000/this-page-does-not-exist",
+    "title": "404 Not Found",
+    "page_type": "error_404",
+    "issues_count": 3,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 404 (NOT FOUND)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260227_234355/screens/http_127_0_0_1_8000_this_page_does_not_exist.png"
+  },
+  {
+    "url": "http://127.0.0.1:8000/boom",
+    "title": "500 Internal Server Error",
+    "page_type": "error_500",
+    "issues_count": 3,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "High",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260227_234355/screens/http_127_0_0_1_8000_boom.png"
+  }
+]

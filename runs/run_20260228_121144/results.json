@@ -1,0 +1,2032 @@
+[
+  {
+    "url": "https://www.swiggy.com/corporate",
+    "title": "Swiggy",
+    "page_type": "unknown",
+    "issues_count": 76,
+    "issues": [
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.elementor-button.elementor-button-link",
+        "hint": "href=#",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"#\"> <span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-icon\"> <svg fill=\"none\" ",
+        "issue_id": "61a59c57a343"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.elementor-item",
+        "hint": "text=Bangalore",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"elementor-item\">Bangalore</a>",
+        "issue_id": "96b6b40e4584"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.elementor-item",
+        "hint": "text=Gurgaon",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"elementor-item\">Gurgaon</a>",
+        "issue_id": "d63a14da9da2"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.elementor-item",
+        "hint": "text=Hyderabad",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"elementor-item\">Hyderabad</a>",
+        "issue_id": "01bfed915a79"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.elementor-item",
+        "hint": "text=Delhi",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"elementor-item\">Delhi</a>",
+        "issue_id": "c7180631b6db"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.elementor-item",
+        "hint": "text=Mumbai",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"elementor-item\">Mumbai</a>",
+        "issue_id": "d764844fe976"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Low",
+        "tag": "functional",
+        "locator": "a.elementor-item",
+        "hint": "text=Pune",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "<a class=\"elementor-item\">Pune</a>",
+        "issue_id": "70e3bae1a158"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-full.size-full",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/swiggy-logo.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-full size-full wp-image-887\" height=\"96\" src=\"https://www.swiggy.com/corporate/wp-content/uploads/2024/10/swiggy-logo.webp\" width=\"297\"/>",
+        "issue_id": "76a5bed97b30"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/about-banner-left-arrow.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1108\" decoding=\"async\" fetchpriority=\"high\" height=\"171\" sizes=\"(max-width: 433px) 100vw, 433px\" src=\"https://www.swiggy.com",
+        "issue_id": "bea1b5415898"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/about-banner-right-arrow.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1107\" decoding=\"async\" height=\"243\" sizes=\"(max-width: 351px) 100vw, 351px\" src=\"https://www.swiggy.com/corporate/wp-content",
+        "issue_id": "de4178897bfa"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-full.size-full",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/food.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-full size-full wp-image-897\" decoding=\"async\" height=\"510\" sizes=\"(max-width: 480px) 100vw, 480px\" src=\"https://www.swiggy.com/corporate/wp-content/up",
+        "issue_id": "dd75764f084c"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-full.size-full",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/instamart-1.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-full size-full wp-image-898\" decoding=\"async\" height=\"510\" loading=\"lazy\" sizes=\"auto, (max-width: 480px) 100vw, 480px\" src=\"https://www.swiggy.com/co",
+        "issue_id": "09f077af3c57"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-full.size-full",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2025/10/banner-Instamart.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-full size-full wp-image-11461\" decoding=\"async\" height=\"256\" loading=\"lazy\" src=\"https://www.swiggy.com/corporate/wp-content/uploads/2025/10/banner-In",
+        "issue_id": "8392d557b1d4"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-full.size-full",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/dineout.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-full size-full wp-image-899\" decoding=\"async\" height=\"510\" loading=\"lazy\" sizes=\"auto, (max-width: 480px) 100vw, 480px\" src=\"https://www.swiggy.com/co",
+        "issue_id": "a3b5730fa447"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-full.size-full",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/swiggy-sign.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-full size-full wp-image-191\" decoding=\"async\" height=\"548\" loading=\"lazy\" sizes=\"auto, (max-width: 362px) 100vw, 362px\" src=\"https://www.swiggy.com/co",
+        "issue_id": "8703789f1660"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-full.size-full",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2025/10/Scenes-new-icon.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-full size-full wp-image-11430\" decoding=\"async\" height=\"256\" loading=\"lazy\" src=\"https://www.swiggy.com/corporate/wp-content/uploads/2025/10/Scenes-ne",
+        "issue_id": "c9e0f2f7d4c3"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Mission.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-6710\" decoding=\"async\" height=\"312\" loading=\"lazy\" sizes=\"auto, (max-width: 368px) 100vw, 368px\" src=\"https://www.swiggy.com",
+        "issue_id": "7ed908d52eca"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/11/Group-1116602947-1024x676.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-6779\" decoding=\"async\" height=\"528\" loading=\"lazy\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" src=\"https://www.swiggy.com",
+        "issue_id": "a1a8dbbab6ba"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/slider-4.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-6276\" decoding=\"async\" height=\"768\" loading=\"lazy\" sizes=\"auto, (max-width: 740px) 100vw, 740px\" src=\"https://www.swiggy.com",
+        "issue_id": "2b910b32cf09"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2025/10/carousel-icon-2025.svg",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-11452\" decoding=\"async\" height=\"139\" loading=\"lazy\" src=\"https://www.swiggy.com/corporate/wp-content/uploads/2025/10/carouse",
+        "issue_id": "ca3262a048d2"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Food-2.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-658\" decoding=\"async\" height=\"739\" loading=\"lazy\" sizes=\"auto, (max-width: 594px) 100vw, 594px\" src=\"https://www.swiggy.com/",
+        "issue_id": "5fa181a13db1"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/instamart-2.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-956\" decoding=\"async\" height=\"500\" loading=\"lazy\" sizes=\"auto, (max-width: 589px) 100vw, 589px\" src=\"https://www.swiggy.com/",
+        "issue_id": "25d7da072943"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/swiggy-one-1.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1601\" decoding=\"async\" height=\"425\" loading=\"lazy\" sizes=\"auto, (max-width: 790px) 100vw, 790px\" src=\"https://www.swiggy.com",
+        "issue_id": "2d717e8170d0"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/swiggy-minis.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1600\" decoding=\"async\" height=\"722\" loading=\"lazy\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" src=\"https://www.swiggy.com",
+        "issue_id": "16e27402bcdc"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/bank.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1599\" decoding=\"async\" height=\"664\" loading=\"lazy\" sizes=\"auto, (max-width: 636px) 100vw, 636px\" src=\"https://www.swiggy.com",
+        "issue_id": "41d9f3be8d4f"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-08.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1526\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "ba4acedd8871"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-01.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1527\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "38b7eaa349e4"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-02.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1528\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "25f25faaf9e8"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-03.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1529\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "dde7deaa9071"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-04.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1522\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "8f0744a0c0a0"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-05.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1523\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "8cba4e1dbb6f"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-06.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1524\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "9f616d9aae9d"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-07.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1525\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "5fd8140350b7"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-1.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1483\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "b7e777bd4ae0"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-2.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1484\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "8d9f11222018"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-3.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1485\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "6271a50fbf43"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2025/07/Image-1.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-10800\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.co",
+        "issue_id": "ad051d0cc7c2"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-5.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1487\" decoding=\"async\" height=\"326\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "ce9666fa2643"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-6.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1488\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "b9962cf44687"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-9.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1481\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "d178964c6d1e"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/management-member-10.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-1482\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"auto, (max-width: 328px) 100vw, 328px\" src=\"https://www.swiggy.com",
+        "issue_id": "ff9720b3935b"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/career-at-swiggy-1024x672.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-324\" decoding=\"async\" height=\"525\" loading=\"lazy\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" src=\"https://www.swiggy.com/",
+        "issue_id": "dfb4deeaf3e5"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/fc9a90bf4e2fc28d253f367b215092",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-5443\" decoding=\"async\" height=\"267\" loading=\"lazy\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" src=\"https://www.swiggy.com",
+        "issue_id": "4ed0dac44064"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/ee2529d507952e710b6e64ae098cbe",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-5444\" decoding=\"async\" height=\"266\" loading=\"lazy\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" src=\"https://www.swiggy.com",
+        "issue_id": "963425c02844"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/57150352fc98c009e2e66aad50224a",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-5445\" decoding=\"async\" height=\"266\" loading=\"lazy\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" src=\"https://www.swiggy.com",
+        "issue_id": "79d70d58092f"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Group.png",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-367\" decoding=\"async\" height=\"128\" loading=\"lazy\" sizes=\"auto, (max-width: 424px) 100vw, 424px\" src=\"https://www.swiggy.com/",
+        "issue_id": "3c6aac964f33"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/app-now-pic-2.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-373\" decoding=\"async\" height=\"1\" loading=\"lazy\" src=\"https://www.swiggy.com/corporate/wp-content/uploads/2024/10/app-now-pic",
+        "issue_id": "525d66fac4e7"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/footer-logo.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-33\" height=\"193\" loading=\"lazy\" sizes=\"auto, (max-width: 636px) 100vw, 636px\" src=\"https://www.swiggy.com/corporate/wp-conte",
+        "issue_id": "6871cdfea2a5"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/appstore-logo.svg",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-95\" height=\"64\" loading=\"lazy\" src=\"https://www.swiggy.com/corporate/wp-content/uploads/2024/10/appstore-logo.svg\" width=\"20",
+        "issue_id": "6679e2f23618"
+      },
+      {
+        "issue": "Missing Alt Text",
+        "severity": "Low",
+        "tag": "accessibility",
+        "locator": "img.attachment-large.size-large",
+        "hint": "src=https://www.swiggy.com/corporate/wp-content/uploads/2024/10/playstore-logo.webp",
+        "suggestion": "Add alt text that describes the image for screen readers. Use alt='' only for decorative images.",
+        "evidence": "<img alt=\"\" class=\"attachment-large size-large wp-image-5014\" height=\"246\" loading=\"lazy\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" src=\"https://www.swiggy.com/corporate/wp-con",
+        "issue_id": "eb1e1af53028"
+      },
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      },
+      {
+        "issue": "Form Input Missing Label",
+        "severity": "Critical",
+        "tag": "accessibility",
+        "locator": "select.form-select",
+        "hint": "text=679 cities",
+        "suggestion": "Add <label for='...'> or aria-label/aria-labelledby so screen readers can identify the field.",
+        "evidence": "<select class=\"form-select\"> <option selected=\"\">679 cities</option> </select>",
+        "issue_id": "e4e9f0e48e76"
+      },
+      {
+        "issue": "Form Input Missing Label",
+        "severity": "Critical",
+        "tag": "accessibility",
+        "locator": "select.form-select",
+        "hint": "text=589 cities",
+        "suggestion": "Add <label for='...'> or aria-label/aria-labelledby so screen readers can identify the field.",
+        "evidence": "<select class=\"form-select\"> <option selected=\"\">589 cities</option> </select>",
+        "issue_id": "d181b60013df"
+      },
+      {
+        "issue": "Slow Load Time",
+        "severity": "Medium",
+        "tag": "performance",
+        "locator": "page",
+        "hint": "load_ms=3947",
+        "suggestion": "Reduce heavy JS, compress images, enable caching, and investigate slow network requests.",
+        "evidence": "",
+        "issue_id": "b28ee0a9822b"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "Critical",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 404 ()",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "1cff54fa4fdf"
+      },
+      {
+        "issue": "JS Exception",
+        "severity": "Critical",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Cannot read properties of undefined (reading 'params')",
+        "suggestion": "Fix the thrown error in the app code; add try/catch and validate null/undefined access.",
+        "evidence": "",
+        "issue_id": "4f23a48ed165"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.swiggy.com/corporate/wp-content/uploads/2024/11/WhatsApp-Video-2024-",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "7855a818f796"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "e7250182aee5"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=Im0gQ60jsbeHsEow&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "5cfc9037b5ea"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=VSlU2QUvblznUWlS&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "4562322050c7"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=wJvTBgNd5uVqyhp1&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "54f2cd513d0e"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=_XfDwqRskYq7zBwL&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "64014162dab9"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "15536748d3c2"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=jUb-fC6QesjcqCC_&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "f7becccb26cf"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=TQkXE_KueM_Gi5V-&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "576eb1ab07f0"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=RJ7rcjVaOibv4mQX&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "a548c7cecf2a"
+      },
+      {
+        "issue": "Request Failed",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "net::ERR_ABORTED https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=ACDxHNkygEV4WGKu&ver",
+        "suggestion": "Investigate failing network request (CORS/404/500). Ensure endpoint is reachable and correct.",
+        "evidence": "",
+        "issue_id": "269f2db5bb4b"
+      },
+      {
+        "issue": "External Link Blocked",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 https://blog.swiggy.com/2024/10/12/bridging-cultures-through-cuisine-the-nasi-and-mee-story/",
+        "suggestion": "Confirm external destination allows access; update link or remove if restricted.",
+        "evidence": "",
+        "issue_id": "89306d9e2dbf"
+      },
+      {
+        "issue": "External Link Blocked",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 https://blog.swiggy.com/2024/10/11/hiring-from-1x-to-10x-via-swiggys-future-proofing-strategy/",
+        "suggestion": "Confirm external destination allows access; update link or remove if restricted.",
+        "evidence": "",
+        "issue_id": "4c9824740093"
+      },
+      {
+        "issue": "External Link Blocked",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 https://blog.swiggy.com/2024/10/05/taking-local-campaigns-to-the-national-stage-ft-rana-bayas-senior-area-sales-manager-",
+        "suggestion": "Confirm external destination allows access; update link or remove if restricted.",
+        "evidence": "",
+        "issue_id": "7398c58a96c6"
+      },
+      {
+        "issue": "External Link Blocked",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 https://blog.swiggy.com/",
+        "suggestion": "Confirm external destination allows access; update link or remove if restricted.",
+        "evidence": "",
+        "issue_id": "b269401e3523"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Critical",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "failed https://www.dineout.co.in/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "cb0b3be707d6"
+      },
+      {
+        "issue": "External Link Blocked",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 https://blog.swiggy.com/category/explore-with-swiggy/",
+        "suggestion": "Confirm external destination allows access; update link or remove if restricted.",
+        "evidence": "",
+        "issue_id": "14be52def939"
+      },
+      {
+        "issue": "External Link Blocked",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "403 https://blog.swiggy.com/category/snackables/",
+        "suggestion": "Confirm external destination allows access; update link or remove if restricted.",
+        "evidence": "",
+        "issue_id": "59ee79195590"
+      },
+      {
+        "issue": "Broken Link",
+        "severity": "Critical",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "400 https://www.facebook.com/swiggy.in/",
+        "suggestion": "Fix the href, remove the link, or replace it with a valid destination URL.",
+        "evidence": "",
+        "issue_id": "befda56629b1"
+      }
+    ],
+    "hygiene_score": 0,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 6,
+        "Medium": 20,
+        "Low": 50
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 400,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/",
+    "title": "",
+    "page_type": "home",
+    "issues_count": 5,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      },
+      {
+        "issue": "Console Error",
+        "severity": "Critical",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "Failed to load resource: the server responded with a status of 403 ()",
+        "suggestion": "Inspect browser console stack trace and fix JS error; often caused by missing scripts or runtime exceptions.",
+        "evidence": "",
+        "issue_id": "e6f6eb9bfcc4"
+      }
+    ],
+    "hygiene_score": 51,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 2,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 49,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/feed",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/comments/feed",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/plugins/contact-form-7/includes/css/styles.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/style.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/aos.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/themes/child-theme/assets/css/style.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 5,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      },
+      {
+        "issue": "Placeholder Text Found",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "page",
+        "hint": "lorem/placeholder",
+        "suggestion": "Replace placeholder text with real content.",
+        "evidence": "",
+        "issue_id": "ad36402f00ba"
+      }
+    ],
+    "hygiene_score": 63,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 2
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 37,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/reset.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/theme.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/themes/hello-elementor/assets/css/header-footer.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-frontend.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 5,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      },
+      {
+        "issue": "Placeholder Text Found",
+        "severity": "Low",
+        "tag": "content",
+        "locator": "page",
+        "hint": "lorem/placeholder",
+        "suggestion": "Replace placeholder text with real content.",
+        "evidence": "",
+        "issue_id": "ad36402f00ba"
+      }
+    ],
+    "hygiene_score": 63,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 2
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 37,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/post-9.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  },
+  {
+    "url": "https://www.swiggy.com/corporate/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "title": "",
+    "page_type": "unknown",
+    "issues_count": 4,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>",
+        "issue_id": "f523097d80ec"
+      },
+      {
+        "issue": "Missing Page Title",
+        "severity": "Critical",
+        "tag": "seo",
+        "locator": "title",
+        "hint": "",
+        "suggestion": "Add a meaningful <title> tag (50–60 chars) describing the page.",
+        "evidence": "<title></title>",
+        "issue_id": "5b227b9f564f"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>",
+        "issue_id": "4508d29da630"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>",
+        "issue_id": "7e016cdb3850"
+      }
+    ],
+    "hygiene_score": 66,
+    "score_breakdown": {
+      "counts": {
+        "Critical": 1,
+        "Medium": 2,
+        "Low": 1
+      },
+      "weights": {
+        "Critical": 15,
+        "Medium": 8,
+        "Low": 3
+      },
+      "penalty": 34,
+      "formula": "score = max(0, 100 - (Critical*15 + Medium*8 + Low*3))"
+    },
+    "screenshot_path": ""
+  }
+]

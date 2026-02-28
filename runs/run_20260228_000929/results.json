@@ -1,0 +1,668 @@
+[
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🍜 FoodCart Demo",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🍜 FoodCart Demo",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 9,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Form Input Missing Label",
+        "severity": "High",
+        "tag": "accessibility",
+        "locator": "select",
+        "hint": "text=All Bowls Wraps South Indian Burgers Desserts Noodles",
+        "suggestion": "Add <label for='...'> or aria-label/aria-labelledby so screen readers can identify the field.",
+        "evidence": "<select><option value=\"All\">All</option><option value=\"Bowls\">Bowls</option><option value=\"Wraps\">Wraps</option><option value=\"South Indian\">South Indian</option><option value=\"Bur"
+      },
+      {
+        "issue": "Form Input Missing Label",
+        "severity": "High",
+        "tag": "accessibility",
+        "locator": "select",
+        "hint": "text=Sort: Relevance Price: Low → High Price: High → Low Rating",
+        "suggestion": "Add <label for='...'> or aria-label/aria-labelledby so screen readers can identify the field.",
+        "evidence": "<select><option value=\"relevance\">Sort: Relevance</option><option value=\"priceLow\">Price: Low → High</option><option value=\"priceHigh\">Price: High → Low</option><option value=\"rati"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  },
+  {
+    "url": "http://localhost:5173/",
+    "title": "dummy_site",
+    "page_type": "home",
+    "issues_count": 7,
+    "issues": [
+      {
+        "issue": "Missing Meta Description",
+        "severity": "Medium",
+        "tag": "seo",
+        "locator": "meta",
+        "hint": "name=description",
+        "suggestion": "Add <meta name='description' content='...'> to improve SEO snippet quality.",
+        "evidence": "<meta name=\"description\"/>"
+      },
+      {
+        "issue": "Missing Canonical",
+        "severity": "Low",
+        "tag": "seo",
+        "locator": "link",
+        "hint": "",
+        "suggestion": "Add <link rel='canonical' href='...'> to reduce duplicate URL/parameter issues.",
+        "evidence": "<link rel=\"canonical\"/>"
+      },
+      {
+        "issue": "Missing H1 Heading",
+        "severity": "Medium",
+        "tag": "accessibility",
+        "locator": "h1",
+        "hint": "",
+        "suggestion": "Add one clear H1 per page to improve structure and screen-reader navigation.",
+        "evidence": "<h1></h1>"
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Menu",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Orders",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | Admin",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      },
+      {
+        "issue": "Dead Button / No Action",
+        "severity": "Medium",
+        "tag": "functional",
+        "locator": "page",
+        "hint": "no_change | 🛒 Cart (0)",
+        "suggestion": "Review the element and update HTML/CSS/JS to resolve the issue.",
+        "evidence": ""
+      }
+    ],
+    "screenshot_path": "runs/run_20260228_000929/screens/http_localhost_5173.png"
+  }
+]
