@@ -10,3 +10,4 @@ numpy
 scikit-learn
 pyvis==0.3.2
 streamlit-agraph==0.0.45
+openpyxl
